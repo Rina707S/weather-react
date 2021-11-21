@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+body {
+  font-family: Papyrus;
+  color: blueviolet;
+  background: linear-gradient(
+    142.4deg,
+    rgb(139, 98, 208) 5%,
+    rgb(126, 124, 223) 28.2%,
+    rgb(109, 207, 236) 62.5%,
+    rgb(176, 239, 244) 89.1%
+  );
+  background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/43/78/0oaFZK.jpg");
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  margin: 0 0 10px;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li:first-letter {
+  text-transform: capitalize;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style: none;
 }

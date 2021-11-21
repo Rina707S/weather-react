@@ -1,0 +1,77 @@
+.Weather {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(137, 247, 254) 0%,
+    rgb(102, 166, 255) 90%
+  );
+  box-shadow: 10px 10px 20px rgba(110, 45, 200, 0.2);
+}
+
+.Weather {
+  border: 5px solid #5ac2f0;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 120px auto 0;
+  max-width: 700px;
+}
+.clearfix {
+  float: left;
+}
+.temp {
+  font-size: 50px;
+}
+
+.weather-icon {
+  height: 70px;
+  font-weight: 70px;
+  margin-right: 10px;
+  float: left;
+}
+
+.units {
+  position: relative;
+  top: -20px;
+}
+
+.try {
+  background-color: #ebf7fd;
+}
+.week {
+  text-align: center;
+}
+.temperature {
+  text-align: center;
+}
+
+.copyright {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.weather-temperature .active {
+  color: blueviolet;
+  cursor: default;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-min {
+  opacity: 0.5;
+}
